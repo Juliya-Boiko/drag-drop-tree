@@ -2,7 +2,7 @@
 
 - add, delete, update categories;
 
-- drag & drop youre catagories tree in the container;
+- drag & drop youre categories tree in the container;
 
 - Zoom in & zoom out
 

@@ -1,0 +1,14 @@
+.input {
+  min-height: 100%;
+  width: 150px;
+  margin: 0 12px 0 0;
+  padding: 0 12px;
+  border-radius: 12px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  line-height: 1.2;
+  color: inherit;
+  box-shadow: -5px -5px 20px #212121, 5px 5px 20px #141414 inset;
+}

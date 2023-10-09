@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-shadow: -5px -5px 20px #212121, 5px 5px 20px #141414;
+}
+
+.gradientText {
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #5372fe;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-size: 100%;
+  background-image: linear-gradient(45deg, #5372fe, #FFF);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}

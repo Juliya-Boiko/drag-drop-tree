@@ -1,0 +1,19 @@
+.select {
+  display: inline-block;
+  margin: 0 12px 0 0;
+  padding: 6px;
+  font: inherit;
+  line-height: 1;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: -5px -5px 20px #212121, 5px 5px 20px #141414;
+  box-sizing: border-box;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+  option {
+    background-color: transparent;
+  }
+}

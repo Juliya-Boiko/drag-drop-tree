@@ -1,0 +1,29 @@
+.button {
+  min-width: 36px;
+  min-height: 36px;
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: -5px -5px 20px #212121, 5px 5px 20px #141414;
+  stroke: gray;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  stroke: #5372fe;
+  box-shadow: -2px -2px 5px #212121, 2px 2px 5px #141414;
+}
+
+.button:active {
+  box-shadow: inset 1px 1px 2px #141414, inset -1px -1px 2px #212121;
+}
+
+.button:disabled {
+  box-shadow: none;
+  stroke: lightslategray;
+  cursor: not-allowed;
+}
+
+.button:not(:last-child) {
+  margin: 0 12px 0 0;
+}
